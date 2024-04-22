@@ -36,7 +36,7 @@ graph TD
     C --> D{Action}
     D -->|Liste des boutiques| E[Liste des boutiques]
     E -->|Détails d'une boutique| F[Détails d'une boutique]
-    D -->|Gestion des boutiques| G[Gestion des boutiques]
+    D -->|Configuration| G[Page de configuration de la boutique]
     G -->|Ajout| H[Ajout]
     G -->|Modification| I[Modification]
     G -->|Suppression| J[Suppression]
