@@ -4,7 +4,16 @@ DeployNow est une application web qui permet de déployer une boutique wordpress
 
 ## Caractéristiques
 
-### Frontend
+```mermaid
+gitGraph
+    commit id: "Initial commit" tag: "v0.0"
+    branch documentation
+    commit id: "wip-doc"
+    checkout main
+    merge documentation
+```
+
+### Pages
 
 - Page de connexion
 - Page de suivi
@@ -18,8 +27,6 @@ DeployNow est une application web qui permet de déployer une boutique wordpress
   - Ajout
   - Modification
   - Suppression
-
-### Backend
 
 ```mermaid
 graph TD
